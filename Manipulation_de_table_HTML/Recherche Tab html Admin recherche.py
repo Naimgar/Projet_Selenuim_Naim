@@ -19,6 +19,7 @@ driver.find_element(By.XPATH,'//span[text()="Admin"]').click()
 time.sleep(3)
 nb_lignes=driver.find_elements(By.XPATH,"//div[@class='oxd-table-row oxd-table-row--with-border'][@role='row']")
 print(len(nb_lignes))
+#print(len(nb_lignes))
 #nb_colonnes=driver.find_elements(By.XPATH,"//table[@name='BookTable']//th")
 #print(len(nb_colonnes))
 #recuperer la valeur d'une cellule de la table
